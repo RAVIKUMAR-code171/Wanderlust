@@ -1,0 +1,29 @@
+{
+  "name": "wanderlust",
+  "version": "1.0.0",
+  "description": "A full-stack Airbnb-style listings app built with Node.js, Express, MongoDB and EJS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node init/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAVIKUMAR-code171/Wanderlust.git"
+  },
+  "homepage": "https://github.com/RAVIKUMAR-code171/Wanderlust#readme",
+  "keywords": ["wanderlust", "express", "mongodb", "ejs", "nodejs"],
+  "author": "Ravi Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.5.2"
+  }
+}
